@@ -1,0 +1,93 @@
+---
+import Section from "../Section.astro"
+
+import { education } from "@cv"
+---
+
+<Section title="Education">
+  <ul class="work-experience-list">
+    {
+      
+      education.map(({ institution, startDate, endDate, area, url, summary }) => {
+        const monthNames = [
+          "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+        ]
+
+        const startYear = new Date(startDate).getFullYear()
+        const startMonth = monthNames[new Date(startDate).getMonth()]
+        const endYear =endDate != null ? new Date(endDate).getFullYear() : "Actual"
+        const endMonth =endDate != null ? monthNames[new Date(endDate).getMonth()] : ""
+        const dates = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                      <a href={url} title={`Watch ${institution}`} target="_blank">
+                        {institution}
+                      </a>
+                    </h3>
+                    <h4>{area}</h4>
+                </div>
+
+                <time>{dates}</time>
+              </header>
+
+              <footer>
+                  <p>{summary}</p>
+                </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

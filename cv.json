@@ -1,0 +1,131 @@
+{
+  "basics": {
+    "name": "Daniel Romero Hernandez",
+    "label": "Full Stack Developer",
+    "image": null,
+    "email": "da.romero.hernandez@gmail.com",
+    "phone": "+34 640815089",
+    "url": "https://danielin.xyz",
+    "summary": "With 2 years of experience as a Full Stack Developer. Dedicated to tackling challenges and delivering effective solutions to drive company success. Currently focused on enhancing and broadening my programming skills.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Daniel Romero",
+        "url": "https://www.linkedin.com/in/daniel-romero-hern%C3%A1ndez-bba256228/"
+      },
+      {
+        "network": "GitHub",
+        "username": "DanielinR",
+        "url": "https://github.com/DanielinR"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Golden Soft",
+      "position": "Full stack developer",
+      "url": "https://goldensoft.com/",
+      "startDate": "2022-10-01",
+      "endDate": "2023-10-01",
+      "summary": "Worked on a .NET desktop application responsible for managing and accounting across multiple companies. During the process of code refactoring, I enhanced my ability to analyze and restructure legacy code, improving its readability and maintainability."
+    },
+    {
+      "name": "JdeRobot academy",
+      "position": "Full stack developer",
+      "url": "https://jderobot.github.io/RoboticsAcademy/",
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-01",
+      "summary": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [{
+    "institution": "Mastermind",
+    "url": "https://www.mastermind.ac/",
+    "area": "Software engineer courses",
+    "startDate": "2023-11-01",
+    "endDate": "2024-01-01",
+    "summary": "Here I have learned about the Linux operating system and about the inner workings of networks and computers."
+  },
+  {
+    "institution": "Rey Juan Carlos University",
+    "url": "https://www.urjc.es/",
+    "area": "Game developer degree",
+    "startDate": "2018-01-01",
+    "endDate": "2022-01-01",
+    "summary": ""
+  }],
+  "projects": [
+    {
+      "name": "GymPilot",
+      "isActive": true,
+      "description": "Web and mobile app for recording workouts and reviewing statistics.",
+      "highlights": [
+        "AWS EC2 API", "Next.js front-end","Django rest framework back-end", "Dockerized", "PostgreSQL", "TypeScript", "Tailwind", "Nginx", "Mobile"
+      ],
+      "url": "https://gympilot.danielin.xyz",
+      "github": "https://github.com/DanielinR/GymPilot"
+    },
+    {
+      "name": "ProfitPilot",
+      "isActive": true,
+      "description": "Web app for tracking expenses and increasing your savings.",
+      "highlights": [
+        "AWS EC2 server", "Django", "MySQL", "CSS", "JavaScript", "HTML", "Nginx"
+      ],
+      "url": "https://profitpilot.danielin.xyz",
+      "github": "https://github.com/DanielinR/ProfitPilot"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "Django"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "GitHub"
+    },
+    {
+      "name": "Next.js"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "AWS"
+    }
+  ]
+}
