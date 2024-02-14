@@ -1,4 +1,4 @@
-
+# Hola buenas, he empleado el repositorio de midudev para adaptarlo a mi carrera profesional. Pongo su README para darle creadito: 
 
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
