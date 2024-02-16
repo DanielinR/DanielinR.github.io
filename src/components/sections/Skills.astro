@@ -14,6 +14,7 @@ import Django from "@/icons/Django.astro"
 import PostgreSQL from "@/icons/PostgreSQL.astro"
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
+import Docker from "@/icons/Docker.astro"
 import { skills } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -31,10 +32,11 @@ const SKILLS_ICONS: Record<string, any> = {
   Django,
   AWS,
   PostgreSQL,
+  Docker,
 }
 ---
 
-<Section title="Skills">
+<Section id="skills-section" title="Skills">
   <ul>
     {
       skills.map(({ name }) => {

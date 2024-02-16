@@ -6,7 +6,7 @@
     "email": "da.romero.hernandez@gmail.com",
     "phone": "+34 640815089",
     "url": "https://danielin.xyz",
-    "summary": "With 2 years of experience as a Full Stack Developer. Dedicated to tackling challenges and delivering effective solutions to drive company success. Currently focused on enhancing and broadening my programming skills.",
+    "summary": "2 years of experience as a Full Stack Developer. Dedicated to overcoming challenges and delivering effective solutions to drive company success. Motivated to learn new skills.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,7 +34,9 @@
       "url": "https://goldensoft.com/",
       "startDate": "2022-10-01",
       "endDate": "2023-10-01",
-      "summary": "Worked on a .NET desktop application responsible for managing and accounting across multiple companies. During the process of code refactoring, I enhanced my ability to analyze and restructure legacy code, improving its readability and maintainability."
+      "summary": ["• Worked on a .NET desktop application responsible for managing and accounting across +1000 companies.",
+                  "• Enhanced my ability to analyze and restructure +11 years code, improving its readability and maintainability.", 
+                  "• Collaborated with cross-functional teams to enhance system performance and drive continuous improvement initiatives."]
     },
     {
       "name": "JdeRobot academy",
@@ -42,25 +44,27 @@
       "url": "https://jderobot.github.io/RoboticsAcademy/",
       "startDate": "2022-02-01",
       "endDate": "2022-06-01",
-      "summary": ""
+      "summary": ["• Developed an open source Django web platform featuring Robotics and Computer Vision courses.",
+                  "• Strengthened team organization skills through effective Git workflow and Trello task management."]
     }
   ],
   "volunteer": [],
   "education": [{
     "institution": "Mastermind",
     "url": "https://www.mastermind.ac/",
-    "area": "Software engineer courses",
+    "area": "Software and hardware courses",
     "startDate": "2023-11-01",
     "endDate": "2024-01-01",
-    "summary": "Here I have learned about the Linux operating system and about the inner workings of networks and computers."
+    "summary": ["• Worked with Linux OS developing skills in networking and computer hardware.",
+                "• Gained proficiency in Docker and server deployment techniques."]
   },
   {
     "institution": "Rey Juan Carlos University",
     "url": "https://www.urjc.es/",
-    "area": "Game developer degree",
+    "area": "Bachelor's degree in Game Development.",
     "startDate": "2018-01-01",
     "endDate": "2022-01-01",
-    "summary": ""
+    "summary": ["• Acquired expertise in video game programming and multiplayer server management."]
   }],
   "projects": [
     {

@@ -37,8 +37,10 @@ import { education } from "@cv"
               </header>
 
               <footer>
-                  <p>{summary}</p>
-                </footer>
+                {summary.map((text)=>
+                  <p>{text}</p>
+                )}
+              </footer>
             </article>
           </li>
         )

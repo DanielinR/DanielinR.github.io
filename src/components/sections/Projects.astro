@@ -54,6 +54,12 @@ import { projects } from "@cv"
     margin-inline: -16px;
   }
 
+  @media print {
+    ul{
+    margin-inline-start: -8px;
+    }
+  }
+
   article {
     border-radius: 8px;
     border: 1px solid #f2f2f2;
@@ -62,6 +68,12 @@ import { projects } from "@cv"
     flex-direction: column;
     padding: 16px;
     height: 100%;
+  }
+
+  @media print {
+    article{
+      padding: 7px;
+    }
   }
 
   article header {

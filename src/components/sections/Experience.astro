@@ -37,7 +37,9 @@ import { work } from "@cv"
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  {summary.map((text)=>
+                    <p>{text}</p>
+                  )}
                 </footer>
               </article>
             </li>
