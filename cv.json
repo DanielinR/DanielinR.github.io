@@ -29,6 +29,15 @@
   },
   "work": [
     {
+      "name": "Fiverr",
+      "position": "Full stack developer",
+      "url": "https://www.fiverr.com/",
+      "startDate": "2024-01-01",
+      "endDate": "2024-10-01",
+      "summary": ["• Developed dynamic and responsive web applications using Next.js and React.",
+                  "• Collaborated with clients on Fiverr to customize and deliver web solutions tailored to their specific needs."]
+    },
+    {
       "name": "Golden Soft",
       "position": "Full stack developer",
       "url": "https://goldensoft.com/",
